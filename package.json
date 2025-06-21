@@ -1,0 +1,36 @@
+{
+  "name": "agree2disagree",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A platform for structured video conversations between people with differing viewpoints",
+  "keywords": ["debate", "dialogue", "webrtc", "video-chat", "civil-discourse"],
+  "author": "Josh Szep",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "test": "turbo test",
+    "test:e2e": "turbo test:e2e",
+    "clean": "turbo clean",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "db:generate": "turbo db:generate",
+    "db:push": "turbo db:push",
+    "db:migrate": "turbo db:migrate",
+    "db:studio": "turbo db:studio"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.12.0",
+    "turbo": "^1.12.0",
+    "prettier": "^3.2.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.0"
+  }
+}
