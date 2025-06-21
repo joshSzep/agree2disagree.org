@@ -1,15 +1,38 @@
 # agree2disagree.org
+
 Can you agree to disagree?
+
+## Deployment Status
+
+The project is automatically deployed to Vercel. Visit [agree2disagree.org](https://agree2disagree.org) to see the latest production version.
+
+## Development
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+```
+
+## Deployment
+
+Deployments are automated via GitHub Actions. Pushing to the main branch triggers a production deployment to Vercel.
 
 ======================================================================
 "Agree to Disagree" – Comprehensive Task List
 ======================================================================
 Legend
-------
-●  Smallest atomic task
-◎  Epic or milestone grouping related tasks
-⮑  Parallel‑friendly tasks (can be worked on independently)
-----------------------------------------------------------------------
+
+---
+
+● Smallest atomic task
+◎ Epic or milestone grouping related tasks
+⮑ Parallel‑friendly tasks (can be worked on independently)
+
+---
+
 0. Project Kick‑Off & Planning
    ◎ 0.1 Define product vision, core features, MVP scope
    ◎ 0.2 Choose tech stack versions (Next.js 14+, TypeScript 5+, Node 20, PostgreSQL 16, Prisma ORM)
